@@ -2,7 +2,7 @@
   "formation": {
     "web": {
       "autoscaling": {
-        "min_quantity": 1,
+        "min_quantity": 0,
         "max_quantity": 10,
         "triggers": [
           {
