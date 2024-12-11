@@ -8,8 +8,9 @@
           {
             "type": "http",
             "metadata": {
-              "scaledown_period_seconds": "150",
-              "request_rate_target_value": "50"
+              "scale_by": "concurrency",
+              "concurrency_target_value": "2",
+              "scaledown_period_seconds": "120"
             }
           }
         ]
