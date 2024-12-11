@@ -10,7 +10,7 @@
             "metadata": {
               "scale_by": "concurrency",
               "concurrency_target_value": "2",
-              "scaledown_period_seconds": "120"
+              "scaledown_period_seconds": "10"
             }
           }
         ]
